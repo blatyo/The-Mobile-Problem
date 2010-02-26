@@ -35,16 +35,16 @@ balance. Output must describe each mobile and its properties.
 These mobile properties must be derived (i.e. computed) from the
 structure of each mobile instance the program creates.
 
-totalWeight -- 
+*totalWeight* -- 
         Compute the total weight of a mobile by traversing its
-	structure and summing the weights of its sub-mobiles. 
+  structure and summing the weights of its sub-mobiles. 
         Assume that the weight of struts and cords is 0.
 
-totalHeight -- 
+*totalHeight* -- 
         Compute the total height of the mobile by traversing its
-	structure and finding the greatest height of its sub-mobiles. 
+  structure and finding the greatest height of its sub-mobiles. 
 
-isBalanced -- 
+*isBalanced* -- 
         Determine whether a mobile is balanced.
     A balanced mobile is defined as follows:
       - A mobile with no struts is always balanced.
@@ -56,6 +56,7 @@ isBalanced --
         -- the left mobile is balanced
         -- the right mobile is balanced
     A balanced mobile example hanging from a mount point, X:
+
                                X
                                |  <- 2 length cord
                                |
